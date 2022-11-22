@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+}
+
+:root{
+    --bg-color:#F3F7F4;
+    --fot-color:#101C21;
+}
+
+[class*="__container"] {
+    max-width: 1120px;
+    margin: 0px auto;
+    padding: 0 20px;
+}
+
+// header
+
+.header{
+    padding: 40px 0;
+    position: relative;
+    &__navigation {
+        display: flex;
+        align-items: center;
+        gap: 75px;
+      }
+
+    &__button{
+        display: flex;
+        gap: 10px;
+    }
+
+    &__btn{
+        padding:16px 25px ;
+        background-color: var(--fot-color);
+        color: #fff;
+        border-radius: 56px;
+    }
+
+    &__search{
+        border: 1px solid #40494D;
+        border-radius: 28px; 
+    }
+    
+}
+
+
+.menu{
+    &__body{
+        color:#40494D;
+        display: flex;
+        align-items: center;
+        gap: 75px;
+    }
+}
