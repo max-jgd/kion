@@ -21,7 +21,11 @@ ul {
 
 .header {
   padding: 40px 0;
-  position: relative;
+  flex-wrap: nowrap;
+}
+.header__container {
+  display: flex;
+  justify-content: space-between;
 }
 .header__navigation {
   display: flex;
@@ -31,12 +35,18 @@ ul {
 .header__button {
   display: flex;
   gap: 10px;
+  cursor: pointer;
 }
 .header__btn {
   padding: 16px 25px;
   background-color: var(--fot-color);
   color: #fff;
   border-radius: 56px;
+}
+.header__btl {
+  padding: 16px 16px;
+  background-color: #fff;
+  border-radius: 28px;
 }
 .header__search {
   border: 1px solid #40494D;
@@ -48,4 +58,8 @@ ul {
   display: flex;
   align-items: center;
   gap: 75px;
+}
+.menu__link {
+  color: #40494D;
+  text-decoration: none;
 }/*# sourceMappingURL=style.css.map */

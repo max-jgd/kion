@@ -23,7 +23,12 @@ ul{
 
 .header{
     padding: 40px 0;
-    position: relative;
+    flex-wrap: nowrap;
+    &__container{
+        font-family: Arial, Helvetica, sans-serif;
+        display: flex;
+        justify-content: space-between;
+    }
     &__navigation {
         display: flex;
         align-items: center;
@@ -33,6 +38,7 @@ ul{
     &__button{
         display: flex;
         gap: 10px;
+        cursor: pointer;
     }
 
     &__btn{
@@ -40,6 +46,12 @@ ul{
         background-color: var(--fot-color);
         color: #fff;
         border-radius: 56px;
+    }
+
+    &__btl{
+        padding: 16px 16px;
+        background-color: #fff;
+        border-radius: 28px;
     }
 
     &__search{
@@ -56,5 +68,11 @@ ul{
         display: flex;
         align-items: center;
         gap: 75px;
+
+    }
+
+    &__link{
+        color:  #40494D;
+        text-decoration: none;
     }
 }
