@@ -17,6 +17,7 @@ ul{
     max-width: 1120px;
     margin: 0px auto;
     padding: 0 20px;
+    display: flex;
 }
 
 // header
@@ -25,20 +26,26 @@ ul{
     padding: 40px 0;
     flex-wrap: nowrap;
     &__container{
-        font-family: Arial, Helvetica, sans-serif;
         display: flex;
         justify-content: space-between;
     }
+
+    &__logo{
+        
+        top: 40px;
+    }
+
     &__navigation {
         display: flex;
         align-items: center;
         gap: 75px;
-      }
+    }
 
     &__button{
         display: flex;
         gap: 10px;
         cursor: pointer;
+        top: 32px;
     }
 
     &__btn{
@@ -74,5 +81,70 @@ ul{
     &__link{
         color:  #40494D;
         text-decoration: none;
+        top: 48px;
     }
+}
+
+.hero{ 
+    &__title{ 
+        padding-top: 278px; 
+        font-weight: 400; 
+        font-size: 40px; 
+        line-height: 50px; 
+        padding-left: 0%; 
+        padding-right: 253px; 
+        color: #283337; 
+    } 
+ 
+    &__text{ 
+        padding-top:20px; 
+        color: #40494D; 
+    } 
+ 
+    &__image0{ 
+        position: absolute; 
+        left: 888px; 
+        top: 320px; 
+    } 
+ 
+    &__image1{ 
+        position: absolute; 
+        bottom: 200px; 
+        right: 150px; 
+        left: 777px; 
+        top: 505px; 
+    } 
+    &__image2{ 
+        position: absolute; 
+        right: 200px; 
+        left: 990px; 
+        top: 755px; 
+    } 
+    &__image3{ 
+        position: absolute; 
+        bottom: 7px; 
+        right: 333px; 
+        left: 1185px; 
+        top: 480px; 
+    } 
+ 
+    &__sponsors{ 
+        display: flex; 
+        justify-content: space-evenly; 
+        align-items: center; 
+        position: relative; 
+        top: 444px; 
+    } 
+}
+
+.product{
+
+    &__start{
+        top:74px;
+        left: 80px;
+        font-weight: 400;
+        font-size: 60px;
+    }
+
+
 }

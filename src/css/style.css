@@ -17,6 +17,7 @@ ul {
   max-width: 1120px;
   margin: 0px auto;
   padding: 0 20px;
+  display: flex;
 }
 
 .header {
@@ -27,6 +28,9 @@ ul {
   display: flex;
   justify-content: space-between;
 }
+.header__logo {
+  top: 40px;
+}
 .header__navigation {
   display: flex;
   align-items: center;
@@ -36,6 +40,7 @@ ul {
   display: flex;
   gap: 10px;
   cursor: pointer;
+  top: 32px;
 }
 .header__btn {
   padding: 16px 25px;
@@ -62,4 +67,58 @@ ul {
 .menu__link {
   color: #40494D;
   text-decoration: none;
+  top: 48px;
+}
+
+.hero__title {
+  padding-top: 278px;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 50px;
+  padding-left: 0%;
+  padding-right: 253px;
+  color: #283337;
+}
+.hero__text {
+  padding-top: 20px;
+  color: #40494D;
+}
+.hero__image0 {
+  position: absolute;
+  left: 888px;
+  top: 320px;
+}
+.hero__image1 {
+  position: absolute;
+  bottom: 200px;
+  right: 150px;
+  left: 777px;
+  top: 505px;
+}
+.hero__image2 {
+  position: absolute;
+  right: 200px;
+  left: 990px;
+  top: 755px;
+}
+.hero__image3 {
+  position: absolute;
+  bottom: 7px;
+  right: 333px;
+  left: 1185px;
+  top: 480px;
+}
+.hero__sponsors {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: relative;
+  top: 444px;
+}
+
+.product__start {
+  top: 74px;
+  left: 80px;
+  font-weight: 400;
+  font-size: 60px;
 }/*# sourceMappingURL=style.css.map */
