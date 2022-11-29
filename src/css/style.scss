@@ -14,7 +14,7 @@ ul{
 }
 
 [class*="__container"] {
-    max-width: 1120px;
+    max-width: 1440px;
     margin: 0px auto;
     padding: 0 20px;
     display: flex;
@@ -86,6 +86,7 @@ ul{
 }
 
 .hero{ 
+    background-color: var(--bg-color);
     &__title{ 
         padding-top: 278px; 
         font-weight: 400; 
@@ -129,6 +130,7 @@ ul{
     } 
  
     &__sponsors{ 
+        
         display: flex; 
         justify-content: space-evenly; 
         align-items: center; 
@@ -138,13 +140,124 @@ ul{
 }
 
 .product{
+    &__content{
+        flex-direction: column;
+    }
 
     &__start{
-        top:74px;
-        left: 80px;
+        padding-top: 194px;
+        padding-left: 80px;
         font-weight: 400;
         font-size: 60px;
     }
 
+    &__coment{
+        position: relative;
+        width: 363px;
+        height: 104px;
+        left: 83px;
+    }
 
+    &__button{
+        position:relative;
+        height: 56px;
+        width: 243px;
+        left: 0px;
+        top: 0px;
+        border-radius: 56px;
+        background-color: #283337;
+        color:  #FFFFFF;
+        font-size: 18px;
+        font-weight: 400;
+        text-align: center;
+        left: 105px;
+    }
+
+    &__gear{
+        position: relative;
+        left: 400px;
+        top: 200px;
+        padding-top: 260px ;
+        height: 548px;
+        width: 560px;
+        border-radius: 6px;
+        background-color: #F3F7F4;
+    }
+
+    &__img{
+        position: absolute;
+        height: 90px;
+        left: 14.29%;
+        right: 69.64%;
+        top: 80px;
+    }
+
+    &__text{
+        font-weight: 400;
+        font-size: 32px;
+        position: absolute;
+        height: 68px;
+        left: 14.29%;
+        right: 49.46%;
+        top: 197px; 
+    }
+
+    &__title{
+        position: absolute;
+        height: 78px;
+        left: 14.29%;
+        right: 15.89%;  
+        top: 316px;
+        font-weight: 400;
+        font-size: 18px;
+    }
+
+    &__learn{
+        position: relative;
+        text-align: right;
+        top: 200px;
+    }
+}
+
+.results{ 
+    display: flex; 
+    &__title{ 
+        color: #283337; 
+        font-size: 40px; 
+        position: relative; 
+        top: 55px; 
+    } 
+ 
+    &__number{ 
+        color: #283337; 
+        font-size: 55px; 
+        position: relative; 
+        top: 259px; 
+        text-align: center; 
+    } 
+ 
+    .data1{ 
+        position: relative; 
+        right: 346px; 
+    } 
+ 
+    .data3{ 
+        position: relative; 
+        left: 346px; 
+    } 
+ 
+    &__text{ 
+        color: #40494D; 
+        font-style: 16px; 
+        position: relative; 
+        top: 265px; 
+        text-align: center; 
+    } 
+ 
+    &__title{ 
+        font-size: 50px; 
+        text-align: center; 
+        position: relative; 
+        top: 215px; 
+    } 
 }
