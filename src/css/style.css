@@ -115,7 +115,6 @@ ul {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  position: relative;
   top: 444px;
 }
 
@@ -225,4 +224,83 @@ ul {
   text-align: center;
   position: relative;
   top: 215px;
+}
+
+.kion__fixed {
+  flex-direction: column;
+}
+.kion__text {
+  position: relative;
+  top: 444px;
+  left: 105px;
+  height: 120px;
+  width: 285px;
+  font-weight: 700;
+  font-size: 60px;
+}
+.kion__title {
+  position: relative;
+  top: 484px;
+  left: 105px;
+  width: 381px;
+  height: 104px;
+  font-weight: 400;
+  font-size: 18px;
+}
+.kion__coment {
+  position: relative;
+  font-weight: 400;
+  font-size: 11px;
+  height: 14px;
+  color: #283337;
+  top: 524px;
+  left: 105px;
+}
+.kion__column {
+  position: relative;
+  top: 544px;
+  left: 135px;
+  font-weight: 400;
+  font-size: 18px;
+}
+.kion__ul {
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+}
+.kion__learn {
+  position: relative;
+  top: 558px;
+  left: 105px;
+  font-weight: 700;
+  font-size: 18px;
+}
+.kion__img {
+  position: relative;
+  left: 564px;
+  top: 504px;
+}
+
+.start {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.start__title {
+  color: #283337;
+  position: relative;
+  top: 744px;
+  font-size: 45px;
+  line-height: 55px;
+}
+.start__text {
+  color: #283337;
+  position: relative;
+  top: 755px;
+  font-size: 25px;
+}
+.start .gg {
+  position: relative;
+  top: 885px;
+  right: 950px;
 }/*# sourceMappingURL=style.css.map */

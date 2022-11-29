@@ -14,6 +14,7 @@ ul{
 }
 
 [class*="__container"] {
+
     max-width: 1440px;
     margin: 0px auto;
     padding: 0 20px;
@@ -130,11 +131,9 @@ ul{
     } 
  
     &__sponsors{ 
-        
         display: flex; 
         justify-content: space-evenly; 
         align-items: center; 
-        position: relative; 
         top: 444px; 
     } 
 }
@@ -260,4 +259,97 @@ ul{
         position: relative; 
         top: 215px; 
     } 
+}
+
+.kion{
+
+    &__fixed{
+        flex-direction: column;
+    }
+
+    &__text{
+        position: relative;
+        top: 444px;
+        left: 105px;
+        height: 120px;
+        width: 285px;
+        font-weight: 700;
+        font-size: 60px;
+    }
+
+    &__title{
+        position: relative;
+        top: 484px;
+        left: 105px;
+        width: 381px;
+        height: 104px;
+        font-weight: 400;
+        font-size: 18px;
+    }
+
+    &__coment{
+        position: relative;
+        font-weight: 400;
+        font-size: 11px;
+        height: 14px;
+        color: #283337;
+        top: 524px;
+        left: 105px;
+    }
+
+    &__column{
+        position: relative;
+        top: 544px;
+        left: 135px;
+        font-weight: 400;
+        font-size: 18px;
+    }
+
+    &__ul{
+        display: flex;
+        flex-direction: column;
+        row-gap: 12px;
+    }
+
+    &__learn{
+        position: relative;
+        top: 558px;
+        left: 105px;
+        font-weight: 700;
+        font-size: 18px;
+    }
+
+    &__img{
+        position: relative;
+        left: 564px;
+        top: 504px;
+    }
+
+}
+
+.start{ 
+    display: flex; 
+    align-items: center; 
+    text-align: center; 
+ 
+    &__title{ 
+        color: #283337; 
+        position: relative; 
+        top: 744px; 
+        font-size: 45px; 
+        line-height: 55px; 
+    } 
+ 
+    &__text{ 
+        color: #283337; 
+        position: relative; 
+        top: 755px; 
+        font-size: 25px; 
+    } 
+ 
+    .gg{ 
+        position: relative; 
+        top: 885px; 
+        right: 950px; 
+    }
 }
